@@ -1,0 +1,11 @@
+{
+    "builders":[
+        {
+            "region":"ami-0d5d9d301c853a04a",
+            "instance_type": "t2.micro",
+            "ssh_username": "ubuntu",
+            "ami_name": "packer-quick-start {{timestamp}}"
+
+        }
+    ]
+}
